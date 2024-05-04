@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Announcement */
+.announcement h6 {
+    font-family: "Mali", cursive;
+    font-size: 14px;
+    padding: 10px;
+    color: #457674;
+    background-color: #D0E4E3;
+    margin-top: 0px;
+}
+
+.announcement a {
+    color: #457674;
+    margin-left: 5px;
+}
+
+.announcement a:hover {
+    color: #000000;
+}
+
+/* Header */
+#navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    margin-top: -10px;
+}
+
+.navbar {
+    margin: 5px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 2rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.5s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 15px 30px 15px 30px;
+}
+
+.dropdown-menu li a {
+    font-size: 18px;
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icons img {
+    margin-left: -1px;
+    padding: 5px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+/* Contact */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/demo-kids-toy-contact-us-title-bg-01.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+.contact-section h1 {
+    margin-top: 7rem;
+    text-align: center;
+    font-family: "Mali", cursive;
+    font-size: 55px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.contact-section p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: #262626;
+    line-height: 33px;
+}
+
+/* Contact Banner */
+.contact-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-banner h1 {
+    font-family: "Mali", cursive;
+    font-size: 50px;
+    color: #1f3332;
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.contact-banner p {
+    color: #626262;
+    margin-right: 50px;
+    font-size: 17px;
+    margin-right: 150px;
+}
+
+.contact-banner .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-banner .wrapper .column-1{
+    margin-left: 3rem;
+}
+
+.contact-banner .wrapper .column-2{
+    margin-top: 4.5rem;
+}
+
