@@ -783,7 +783,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 3.5rem;
 }
 
 .brand-section .wrapper {
@@ -799,6 +799,114 @@
 
 .brand-section .wrapper .container:hover {
     transform: translateY(-10px);
+}
+
+/* Offer Section */
+.offer-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.offer-section a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #262626;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.offer-section a:hover {
+    background-color: transparent;
+    color: #262626;
+    border: 1px solid #262626;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.offer-section .column-2,
+.offer-section .column-3 {
+    grid-column: span 3;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.offer-section .column-1 {
+    grid-column: span 6;
+    background-image: url(images/demo-kids-toy-img-11.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.offer-section .column-1 img{
+    margin-top: 6rem;
+}
+
+.offer-section .column-1 h1{
+    margin-top: 18px;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Mali", cursive;
+    color: #262626;
+    letter-spacing: -1px;
+    line-height: 50px;
+}
+
+.offer-section .column-1 p {
+    margin-top: 18px;
+    font-size: 18px;
+    color: #626262;
+    padding-bottom: 18px;
+}
+
+.offer-section .column-1 .col{
+    margin-left: 16rem;
+}
+
+.offer-section .column-2 {
+    background-image: url(images/demo-kids-toy-img-12.jpg);
+    padding-bottom: 5rem;
+}
+
+.offer-section .column-2 p{
+    margin-top: 3rem;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #262626;
+    font-weight: 400;
+}
+
+.offer-section .column-2 h1 {
+    font-family: "Mali", cursive;
+    color: #262626;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-bottom: 18px;
+}
+
+.offer-section .column-3 {
+    background-image: url(images/demo-kids-toy-img-13.jpg);
+    padding-bottom: 5rem;
+}
+
+.offer-section .column-3 p{
+    margin-top: 3rem;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #262626;
+    font-weight: 400;
+}
+
+.offer-section .column-3 h1 {
+    font-family: "Mali", cursive;
+    color: #262626;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-bottom: 18px;
 }
 
 /* Other Section */
@@ -2056,15 +2164,313 @@ footer .wrapper .column-6 a{
     }
 }
 
+
+/* Offer Section */
+@media (min-width: 320px) and (max-width: 410px) {
+    .offer-section .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .offer-section a{
+        font-size: 12px;
+    }
+    
+    .offer-section .column-2,
+    .offer-section .column-3 {
+        grid-column: span 1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .offer-section .column-1 {
+        grid-column: span 1;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 3rem;
+    }
+    
+    .offer-section .column-1 img{
+        display: none;
+    }
+    
+    .offer-section .column-1 h1{
+        margin-top: 25px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .offer-section .column-1 p {
+        margin-top: 10px;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    
+    .offer-section .column-1 .col{
+        margin-left: 0rem;
+    }
+    
+    .offer-section .column-2 {
+        padding-bottom: 3rem;
+    }
+    
+    .offer-section .column-2 h1 {
+        font-size: 35px;
+    }
+    
+    .offer-section .column-3 {
+        padding-bottom: 3rem;
+    }
+    
+    .offer-section .column-3 h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    .offer-section .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .offer-section a{
+        font-size: 12px;
+    }
+    
+    .offer-section .column-2,
+    .offer-section .column-3 {
+        grid-column: span 1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .offer-section .column-1 {
+        grid-column: span 1;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 5rem;
+    }
+    
+    .offer-section .column-1 img{
+        margin-top: 3rem;
+    }
+    
+    .offer-section .column-1 h1{
+        margin-top: 18px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .offer-section .column-1 p {
+        margin-top: 10px;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    
+    .offer-section .column-1 .col{
+        margin-left: 10rem;
+    }
+    
+    .offer-section .column-2 {
+        padding-bottom: 10rem;
+    }
+    
+    .offer-section .column-2 h1 {
+        font-size: 35px;
+    }
+    
+    .offer-section .column-3 {
+        padding-bottom: 10rem;
+    }
+    
+    .offer-section .column-3 h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .offer-section .wrapper {
+        display: grid;
+    }
+    
+    .offer-section a{
+        font-size: 12px;
+    }
+    
+    .offer-section .column-2,
+    .offer-section .column-3 {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .offer-section .column-1 {
+        grid-column: 1 / span 12;
+        grid-row: 1;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 5rem;
+    }
+    
+    .offer-section .column-1 img{
+        margin-top: 3rem;
+    }
+    
+    .offer-section .column-1 h1{
+        margin-top: 18px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .offer-section .column-1 p {
+        margin-top: 10px;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    
+    .offer-section .column-1 .col{
+        margin-left: 10rem;
+    }
+    
+    .offer-section .column-2 {
+        padding-bottom: 10rem;
+        grid-column: 1 / span 6;
+        grid-row: 2;
+    }
+    
+    .offer-section .column-2 h1 {
+        font-size: 35px;
+    }
+    
+    .offer-section .column-3 {
+        padding-bottom: 10rem;
+        grid-column: 7 / span 6;
+        grid-row: 2;
+    }
+    
+    .offer-section .column-3 h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1243px) {
+    .offer-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .offer-section a{
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #262626;
+        padding: 10px 20px 10px 20px;
+        border-radius: 30px;
+        font-weight: 500;
+    }
+    
+    .offer-section a:hover {
+        background-color: transparent;
+        color: #262626;
+        border: 1px solid #262626;
+        transition: color 0.5s ease, border-color 0.5s ease;
+    }
+    
+    .offer-section .column-2,
+    .offer-section .column-3 {
+        grid-column: span 3;
+        background-position: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    
+    .offer-section .column-1 {
+        grid-column: span 6;
+        background-image: url(images/demo-kids-toy-img-11.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: cover;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    
+    .offer-section .column-1 img{
+        margin-top: 3rem;
+    }
+    
+    .offer-section .column-1 h1{
+        margin-top: 18px;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "Mali", cursive;
+        color: #262626;
+        letter-spacing: -1px;
+        line-height: 50px;
+    }
+    
+    .offer-section .column-1 p {
+        margin-top: 18px;
+        font-size: 18px;
+        color: #626262;
+        padding-bottom: 18px;
+    }
+    
+    .offer-section .column-1 .col{
+        margin-left: 10rem;
+    }
+    
+    .offer-section .column-2 {
+        padding-bottom: 3rem;
+    }
+    
+    .offer-section .column-2 p{
+        margin-top: 3rem;
+        font-size: 18px;
+        text-decoration: underline;
+        color: #262626;
+        font-weight: 400;
+    }
+    
+    .offer-section .column-2 h1 {
+        font-family: "Mali", cursive;
+        color: #262626;
+        font-weight: 600;
+        letter-spacing: -1px;
+        padding-bottom: 18px;
+    }
+    
+    .offer-section .column-3 {
+        background-image: url(images/demo-kids-toy-img-13.jpg);
+        padding-bottom: 3rem;
+    }
+    
+    .offer-section .column-3 p{
+        margin-top: 3rem;
+        font-size: 18px;
+        text-decoration: underline;
+        color: #262626;
+        font-weight: 400;
+    }
+    
+    .offer-section .column-3 h1 {
+        font-family: "Mali", cursive;
+        color: #262626;
+        font-weight: 600;
+        letter-spacing: -1px;
+        padding-bottom: 18px;
+    }
+}
+
 /* Other Section */
 @media (min-width: 320px) and (max-width: 766px) {
     .other-section {
-        padding-top: 1rem;
+        padding-top: 3rem;
         text-align: center;
     }
     
     .other-section h1{
         font-size: 20px;
+        margin: 0 40px 0 40px;
     }
 }
 
