@@ -235,12 +235,30 @@
     font-weight: 500;
 }
 
+/* Video Section */
+.video-section {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/demo-kids-toy-about-img-02.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem 0 15rem 0
+}
+
+.video-section a i{
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+/* Other Offers */
+
 /* Brand Section */
 .brand-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 3rem;
+    padding: 3rem 0 3rem 0;
 }
 
 .brand-section .wrapper {
@@ -737,6 +755,43 @@ footer .wrapper .column-6 a{
         position: relative;
     }
 }
+
+/* Video Section */
+@media (min-width: 320px) and (max-width: 575px) {
+    .video-section {
+        display: flex;
+        justify-content: center;
+        background-image: url(images/demo-kids-toy-about-img-02.jpg);
+        background-position: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5rem 0 5rem 0
+    }
+    
+    .video-section a i{
+        color: #ffffff;
+        font-size: 3rem;
+    } 
+}
+
+@media (min-width: 575px) and (max-width: 993px) {
+    .video-section {
+        display: flex;
+        justify-content: center;
+        background-image: url(images/demo-kids-toy-about-img-02.jpg);
+        background-position: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10rem 0 10rem 0
+    }
+    
+    .video-section a i{
+        color: #ffffff;
+        font-size: 5rem;
+    } 
+}
+
+/* Other Offers */
 
 /* Brand Section */
 @media (min-width: 320px) and (max-width: 369px) {
