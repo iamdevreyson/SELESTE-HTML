@@ -1,0 +1,2524 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Announcement */
+.announcement h6 {
+  font-family: "Mali", cursive;
+  font-size: 14px;
+  padding: 10px;
+  color: #457674;
+  background-color: #D0E4E3;
+  margin-top: 0px;
+}
+
+.announcement a {
+  color: #457674;
+  margin-left: 5px;
+}
+
+.announcement a:hover {
+    color: #000000;
+}
+
+/* Header */
+
+#navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1px;
+  margin-top: -10px;
+}
+
+.navbar {
+  margin: 5px;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 2rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.5s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 15px 30px 15px 30px;
+}
+
+.dropdown-menu li a {
+  font-size: 18px;
+}
+
+.dropdown-item {
+  color: #000000;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icons img {
+  margin-left: -1px;
+  padding: 5px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+/* Promo-section  */
+
+.promo-section {
+    background-color: #88a9a8;
+}
+
+.promo-section p{
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.promo-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.promo-section .wrapper .col {
+    padding: 13px;
+    border-right: 1px solid #ccc;
+}
+
+/* Banner Section */
+
+.best-choice-kids {
+    background-image: url(images/demo-kids-toy-slider-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13rem;
+}
+
+.best-choice-kids .column1 {
+    text-align: center;
+}
+
+.best-choice-kids img {
+    margin-top: 12rem;
+}
+
+.best-choice-kids h1 {
+    font-family: "Mali", cursive;
+    color: #1f3332;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: -5px;
+}
+
+.best-choice-kids p {
+    margin-top: 20px;
+    font-size: 19px;
+    padding-bottom: 30px;
+    color: #626262;
+}
+
+.best-choice-kids a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #262626;
+    padding: 20px 35px 20px 35px;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.best-choice-kids a:hover {
+    background-color: transparent;
+    color: #262626;
+    border: 1px solid #262626;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.soft-toys {
+    background-image: url(images/demo-kids-toy-slider-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13rem;
+}
+
+.soft-toys .column1 {
+    text-align: center;
+}
+
+.soft-toys img {
+    margin-top: 12rem;
+}
+
+.soft-toys h1 {
+    font-family: "Mali", cursive;
+    color: #1f3332;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: -5px;
+}
+
+.soft-toys p {
+    margin-top: 20px;
+    font-size: 19px;
+    padding-bottom: 30px;
+    color: #626262;
+}
+
+.soft-toys a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #262626;
+    padding: 20px 35px 20px 35px;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.soft-toys a:hover {
+    background-color: transparent;
+    color: #262626;
+    border: 1px solid #262626;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.fashion-kids {
+    background-image: url(images/demo-kids-toy-slider-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13rem;
+}
+
+.fashion-kids .column1 {
+    text-align: center;
+}
+
+.fashion-kids img {
+    margin-top: 12rem;
+}
+
+.fashion-kids h1 {
+    font-family: "Mali", cursive;
+    color: #1f3332;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: -5px;
+}
+
+.fashion-kids p {
+    margin-top: 20px;
+    font-size: 19px;
+    padding-bottom: 30px;
+    color: #636464;
+}
+
+.fashion-kids a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #262626;
+    padding: 20px 35px 20px 35px;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fashion-kids a:hover {
+    background-color: transparent;
+    color: #262626;
+    border: 1px solid #262626;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.banner-section .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+/* Category Section */
+
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 3rem 0;
+}
+
+.categories .wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+}
+
+.categories .container{
+    text-align: center;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.category-link {
+    display: block;
+    text-decoration: none;
+}
+
+.category-link:hover {
+    animation: pulse 1s infinite alternate;
+}
+
+.category-link img:hover {
+    transform: rotate(360deg);
+}
+
+.categories .bg-round{
+    background-color: #e5f1f0;
+    width: 150px;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.categories p {
+    font-family: "Mali", cursive;
+    margin-top: 15px;
+    color: #626262;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* Shop Banner */
+.shop-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-banner .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.shop-banner h2 {
+    font-size: 38px;
+    font-family: "Mali", cursive;
+    color: #1f3332;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 40px;
+}
+
+.shop-banner p {
+    font-size: 17px;
+    color: #626262;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.shop-banner a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px 20px 15px 20px;
+    background-color: #262626;
+    border-radius: 30px;
+}
+
+.shop-banner a:hover {
+    background: transparent;
+    border: 1px solid #262626;
+    color: #262626;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.shop-banner .banner-1, .banner-2, .banner-3 {
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.shop-banner .banner-1 {
+    background-image: url(images/demo-kids-toy-shop-banner-1.jpg);
+}
+
+.shop-banner .banner-2 {
+    background-image: url(images/demo-kids-toy-shopbanner-2.jpg);
+}
+
+.shop-banner .banner-3 {
+    background-image: url(images/demo-kids-toy-shopbanner-3.jpg);
+}
+
+.shop-banner .text-banner-1, .text-banner-2, .text-banner-3 {
+    margin-left: 40px;
+    margin-top: 16.5rem;
+    padding-right: 5.5rem;
+    padding-bottom: 3.5rem;
+}
+
+/* Price Deals */
+.price-deals {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+.price-deals h1{
+    font-size: 24px;
+    font-family: "Mali", cursive;
+    color: #262626;
+}
+
+.price-deals a {
+    color: #f96835;
+}
+
+.price-deals a:hover {
+    color: #000000;
+}
+
+/* Toy Section */
+.toy-section {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/demo-kids-toy-bg-img-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+
+}
+
+.toy-section .container {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.toy-section h3 {
+    margin-top: 5rem;
+    color: #1f3332;
+    font-size: 50px;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.toy-section p {
+    font-size: 17px;
+    color: #626262;
+}
+
+.toy-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.toy-section .card {
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.toy-section .card-1 {
+    background-image: url(images/kids-toy-product-9.jpg);
+}
+
+.toy-section .card-2 {
+    background-image: url(images/kids-toy-product-10.jpg);
+}
+
+.toy-section .card-3 {
+    background-image: url(images/kids-toy-product-15.jpg);
+}
+
+.toy-section .card-4 {
+    background-image: url(images/kids-toy-product-07_b33bfe7a-a128-4314-a4b0-43634287ad92.jpg);
+}
+
+.toy-section .card-5 {
+    background-image: url(images/kids-toy-product-06.jpg);
+}
+
+.toy-section .card-6 {
+    background-image: url(images/kids-toy-product-03.jpg);
+}
+
+.toy-section .card-7 {
+    background-image: url(images/kids-toy-product-02.jpg);
+}
+
+.toy-section .card-8 {
+    background-image: url(images/kids-toy-product-16.jpg);
+}
+
+.toy-section .card-9 {
+    background-image: url(images/kids-toy-product-14.jpg);
+}
+
+.toy-section .card-10 {
+    background-image: url(images/kids-toy-product-13.jpg);
+}
+
+.toy-section .overlay {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+}
+
+.toy-section .overlay:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.toy-section a {
+    text-decoration: none;
+    color: #262626;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.toy-section .overlay .heart {
+    border-radius: 50%;
+    margin: 25px 15px 0 12rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toy-section .overlay .cart, .view {
+    margin: 25px 30px 0px 30px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+
+.toy-section .overlay .cart:hover, .view:hover {
+    background-color: #262626;
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.toy-section .icons {
+    margin-top: 20px;
+}
+
+.toy-section h5 {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #262626;
+}
+
+.toy-section span {
+    font-family: "Mali", cursive;
+    font-size: 16px;
+    color: #626262;
+}
+
+.toy-section .btnView {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 20px 30px 20px 30px;
+    background-color: #262626;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.toy-section .btnView:hover {
+    background: transparent;
+    border: 1px solid #262626;
+    color: #262626;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+/* Age Section */
+
+.age-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0 60px 0;
+}
+
+.age-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 50px;
+}
+
+.age-section .wrapper .container {
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+.age-section .container img{
+    padding-bottom: 15px;
+}
+
+.age-section .container a {
+    text-decoration: none;
+}
+
+.age-section h1 {
+    font-family: "Mali", cursive;
+    font-size: 50px;
+    color: #1f3332;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.age-section p {
+    font-size: 20px;
+    color: #262626;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+}
+
+.age-section .wrapper .container:hover {
+    transform: translateY(-10px);
+}
+
+.age-section .wrapper .container a::before {
+    content: '';
+    position: absolute;
+    margin-left: 40.5px;
+    bottom: 15px;
+    left: 0;
+    width: 63%;
+    height: 2px; 
+    background-color: #000000; 
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+  
+.age-section .wrapper .container a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Separator Line */
+.separator img {
+    width: 100%;
+}
+
+/* Product Section */
+.product-section {
+    display: flex;
+    justify-content: center;
+}
+
+.product-section .container {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.product-section h3 {
+    margin-top: 5rem;
+    color: #1f3332;
+    font-size: 50px;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.product-section p {
+    font-size: 17px;
+    color: #626262;
+}
+
+.product-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.product-section .card {
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-section .card-1 {
+    background-image: url(images/kids-toy-product-13.jpg);
+}
+
+.product-section .card-2 {
+    background-image: url(images/kids-toy-product-14.jpg);
+}
+
+.product-section .card-3 {
+    background-image: url(images/kids-toy-product-16.jpg);
+}
+
+.product-section .card-4 {
+    background-image: url(images/kids-toy-product-14_fb4a41a4-f493-49b9-87ee-3d6f470e95b3.jpg);
+}
+
+.product-section .card-5 {
+    background-image: url(images/kids-toy-product-04_002bd689-de4b-459e-af7c-974cb9116516.jpg);
+}
+
+.product-section .overlay {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+}
+
+.product-section .overlay:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.product-section a {
+    text-decoration: none;
+    color: #262626;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.product-section .overlay .heart {
+    border-radius: 50%;
+    margin: 25px 15px 0 12rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-section .overlay .cart, .view {
+    margin: 25px 30px 0px 30px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+
+.product-section .overlay .cart:hover, .view:hover {
+    background-color: #262626;
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.product-section .icons {
+    margin-top: 20px;
+}
+
+.product-section h5 {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #262626;
+}
+
+.product-section span {
+    font-family: "Mali", cursive;
+    font-size: 16px;
+    color: #626262;
+}
+
+/* Brand Section */
+.brand-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.brand-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px;
+}
+
+.brand-section .wrapper .container {
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+
+.brand-section .wrapper .container:hover {
+    transform: translateY(-10px);
+}
+
+/* Other Section */
+.other-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.other-section h1{
+    font-size: 24px;
+    font-family: "Mali", cursive;
+    color: #262626;
+}
+
+.other-section a {
+    color: #f96835;
+}
+
+.other-section a:hover {
+    color: #000000;
+}
+
+/* Other Option */
+.other-options {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 3rem 0;
+}
+
+.other-options .col i {
+    font-size: 3rem;
+}
+
+.other-options h3{
+    margin-top: 12px;
+    font-size: 18px;
+    color: #262626;
+}
+
+.other-options span {
+    font-size: 17px;
+    color: #626262;
+}
+
+.other-options .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* Footer */
+footer .wrapper {
+    display: grid;
+    background-color: #d8e9e8;
+    width: 100%;
+}
+
+footer h6 {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 17px;
+}
+
+footer a:hover {
+    color: #000000;
+}
+
+footer .wrapper .column-1,
+footer .wrapper .column-2,
+footer .wrapper .column-3,
+footer .wrapper .column-4 {
+    border: 1px solid #ccc;
+}
+  
+footer .wrapper .column-1 {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 20px;
+    padding-bottom: 3rem;
+}
+
+footer .wrapper .logo {
+    margin-top: 3rem;
+    width: 250px;
+}
+
+footer .logo p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #626262;
+}
+
+footer .logo .social-icons i{
+    margin-right: 10px;
+}
+  
+footer .wrapper .column-2 {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+footer .wrapper .column-2 a p{
+    margin-bottom: 10px;
+}
+  
+footer .wrapper .column-3 {
+    grid-column: 3;
+    grid-row: 1;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+footer .wrapper .column-3 a p{
+    margin-bottom: 10px;
+}
+  
+footer .wrapper .column-4 {
+    grid-column: 4;
+    grid-row: 1;
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+footer .wrapper .column-4 a p{
+    margin-bottom: 16px;
+}
+
+footer .wrapper .column-5 {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+footer .wrapper .column-5 a{
+    color: #000000;
+    text-decoration: underline;
+}
+
+footer .wrapper .column-6 {
+    grid-column: 4;
+    grid-row: 2;
+    padding-left: 2em;
+    padding-top: 12px;
+}
+
+footer .wrapper .column-6 a{
+    margin-left: 10px;
+}
+
+
+
+
+/* RESPONSIVE DESIGN */
+
+/* Header / Navbar  */
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .announcement {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 120px;
+    } 
+
+    .icons img {
+        display: none;
+    }
+
+    .navbar-toggler {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .announcement {
+        display: none;
+    }
+    
+    .icons img {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .announcement {
+        display: none;
+    }
+
+    .icons img {
+        margin-left: -5px;
+        margin-right: 20px;
+        padding: 0px;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block !important;
+        font-size: 2rem !important;
+    }
+}
+
+/* Promo Section */
+@media (min-width: 320px) and (max-width: 426px) {
+    .promo-section {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .promo-section .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+
+    .promo-section .col{
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .promo-section .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+
+    .promo-section .col{
+        border-bottom: 1px solid #ccc;
+    }
+
+    .promo-section p{
+        margin-top: 16px;
+        font-size: 18px;
+    }
+}
+
+/* Banner Section */
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .banner-section .column2 {
+        display: none;
+    }
+
+    .best-choice-kids {
+        padding-bottom: 7rem;
+    }
+    
+    .best-choice-kids .column1 {
+        text-align: center;
+    }
+    
+    .best-choice-kids img {
+        display: none;
+    }
+    
+    .best-choice-kids h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .best-choice-kids p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+
+    .soft-toys {
+        padding-bottom: 7rem;
+    }
+    
+    .soft-toys .column1 {
+        text-align: center;
+    }
+    
+    .soft-toys img {
+        display: none;
+    }
+    
+    .soft-toys h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .soft-toys p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+
+    .fashion-kids {
+        padding-bottom: 7rem;
+    }
+    
+    .fashion-kids .column1 {
+        text-align: center;
+    }
+    
+    .fashion-kids img {
+        display: none;
+    }
+    
+    .fashion-kids h2 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .fashion-kids p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+
+    .best-choice-kids {
+        padding-bottom: 7rem;
+    }
+    
+    .best-choice-kids .column1 {
+        text-align: center;
+    }
+    
+    .best-choice-kids img {
+        display: none;
+    }
+    
+    .best-choice-kids h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .best-choice-kids p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+
+    .soft-toys {
+        padding-bottom: 7rem;
+    }
+    
+    .soft-toys .column1 {
+        text-align: center;
+    }
+    
+    .soft-toys img {
+        display: none;
+    }
+    
+    .soft-toys h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .soft-toys p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+
+    .fashion-kids {
+        padding-bottom: 7rem;
+    }
+    
+    .fashion-kids .column1 {
+        text-align: center;
+    }
+    
+    .fashion-kids img {
+        display: none;
+    }
+    
+    .fashion-kids h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .fashion-kids p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .best-choice-kids {
+        padding-bottom: 7rem;
+    }
+    
+    .best-choice-kids .column1 {
+        text-align: center;
+    }
+    
+    .best-choice-kids img {
+        display: none;
+    }
+    
+    .best-choice-kids h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .best-choice-kids p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+
+    .soft-toys {
+        padding-bottom: 7rem;
+    }
+    
+    .soft-toys .column1 {
+        text-align: center;
+    }
+    
+    .soft-toys img {
+        display: none;
+    }
+    
+    .soft-toys h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .soft-toys p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+
+    .fashion-kids {
+        padding-bottom: 7rem;
+    }
+    
+    .fashion-kids .column1 {
+        text-align: center;
+    }
+    
+    .fashion-kids img {
+        display: none;
+    }
+    
+    .fashion-kids h1 {
+        font-family: "Mali", cursive;
+        font-size: 55px;
+        margin-top: 9rem;
+    }
+    
+    .fashion-kids p {
+        margin-top: 20px;
+        margin: 30px;
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 607px) {
+
+    .banner-section .column2 {
+        display: none;
+    }
+
+    .best-choice-kids h1 {
+        font-size: 50px;
+    }
+}
+
+/* Categories Section */
+@media (min-width: 320px) and (max-width: 426px) {   
+    .categories .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .categories .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 370px) and (max-width: 555px) {
+    .categories .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .categories .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+
+    .categories .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .categories .baby-gear {
+        grid-column: 2;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .categories .wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1294px) {
+    .categories .wrapper {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* Shop Banner Section */
+@media (min-width: 320px) and (max-width: 426px) {   
+    .shop-banner {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .shop-banner .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    
+    .shop-banner h2 {
+        font-size: 34px;
+    }
+    
+    .shop-banner .text-banner-1, .text-banner-2, .text-banner-3 {
+        margin-left: 5px;
+        margin-top: 10rem;
+        padding-right: 0rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .shop-banner .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1294px) {
+    .shop-banner .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .shop-banner .text-banner-1, .text-banner-2, .text-banner-3 {
+        margin-left: 10px;
+        margin-top: 10rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .toy-section h3 {
+        font-size: 33px;
+    }
+}
+
+/* Prices Deals Section */
+@media (min-width: 320px) and (max-width: 426px) {   
+    .price-deals {
+        display: flex;
+        text-align: center;
+    }
+    
+    .price-deals h1{
+        font-size: 20px;
+        font-family: "Mali", cursive;
+        color: #262626;
+        margin: 0 20px 0 20px;
+    }
+    
+    .price-deals a {
+        color: #f96835;
+    }
+
+    .price-deals img {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .price-deals {
+        display: flex;
+        text-align: center;
+    }
+    
+    .price-deals h1{
+        font-size: 20px;
+        font-family: "Mali", cursive;
+        color: #262626;
+        margin: 0 20px 0 20px;
+    }
+    
+    .price-deals a {
+        color: #f96835;
+    }
+
+    .price-deals img {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .price-deals {
+        display: flex;
+        text-align: center;
+    }
+    
+    .price-deals h1{
+        font-size: 24px;
+        font-family: "Mali", cursive;
+        color: #262626;
+        margin: 0 20px 0 20px;
+    }
+    
+    .price-deals a {
+        color: #f96835;
+    }
+
+    .price-deals img {
+        display: none;
+    }
+}
+
+/* Toy Section  */
+@media (min-width: 320px) and (max-width: 426px) {   
+    .toy-section h3 {
+        font-size: 29px;
+    }
+
+    .toy-section .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 10rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .toy-section h3 {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .toy-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+
+    .toy-section h3 {
+        font-size: 33px;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1294px) {
+    .toy-section h3 {
+        font-size: 33px;
+    }
+
+    .toy-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 15rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1441px) {
+    .toy-section h3 {
+        font-size: 33px;
+    }
+
+    .toy-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 13rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .toy-section h3 {
+        font-size: 33px;
+    }
+
+    .toy-section .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
+    .toy-section h3 {
+        font-size: 33px;
+    }
+
+    .toy-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1294px) and (max-width: 1440px) {
+    .toy-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 15rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .toy-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .toy-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .toy-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .toy-section .overlay {
+        padding-bottom: 15rem;
+    }
+
+    .toy-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .toy-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+/* Age Section */
+@media (min-width: 320px) and (max-width: 768px) {
+    .age-section h1 {
+        font-size: 29px;
+    }
+
+    .age-section .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .age-section .wrapper .container a::before {
+        display: none
+    }
+      
+    .age-section .wrapper .container a:hover::before {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .age-section h1 {
+        font-size: 29px;
+    }
+
+    .age-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .age-section .wrapper .container a::before {
+        display: none
+    }
+      
+    .age-section .wrapper .container a:hover::before {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+    .age-section h1 {
+        font-size: 29px;
+    }
+
+    .age-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .age-section .wrapper .container a::before {
+        display: none
+    }
+      
+    .age-section .wrapper .container a:hover::before {
+        display: none;
+    }
+}
+
+/* Product Section  */
+@media (min-width: 320px) and (max-width: 426px) {   
+    .product-section h3 {
+        font-size: 29px;
+    }
+
+    .product-section .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 10rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .product-section h3 {
+        font-size: 33px;
+    }
+
+    .product-section .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .product-section h3 {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
+    .product-section h3 {
+        font-size: 33px;
+    }
+
+    .product-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .product-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+
+    .product-section h3 {
+        font-size: 33px;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .product-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 15rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .product-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 13rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1294px) {
+    .product-section h3 {
+        font-size: 33px;
+    }
+
+    .product-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 15rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1441px) {
+    .product-section h3 {
+        font-size: 33px;
+    }
+
+    .product-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 13rem;
+    }
+}
+
+@media (min-width: 1294px) and (max-width: 1440px) {
+    .product-section .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-section .card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+    
+    .product-section .overlay {
+        padding-bottom: 15rem;
+    }
+
+    .product-section .overlay:hover {
+        opacity: 0;
+    }
+
+    .product-section .overlay .heart, .cart, .view {
+        display: none;
+    }
+
+}
+
+/* Brand Section */
+@media (min-width: 320px) and (max-width: 768px) {
+    .brand-section .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .brand-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .brand-section .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1441px) {
+    .brand-section .wrapper {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0px;
+    }
+}
+
+/* Other Section */
+@media (min-width: 320px) and (max-width: 766px) {
+    .other-section {
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .other-section h1{
+        font-size: 20px;
+    }
+}
+
+/* Other Options */
+@media (min-width: 320px) and (max-width: 768px) {    
+    .other-options .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {    
+    .other-options .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1107px) {    
+    .other-options .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 80px 0 80px;
+        gap: 0;
+    }
+}
+
+@media (min-width: 1107px) and (max-width: 1197px) {    
+    .other-options .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+    }
+}
+
+/* Footer */
+@media (min-width: 320px) and (max-width: 377px) {
+    footer .wrapper {
+        display: grid;
+        background-color: #d8e9e8;
+    }
+    
+    footer .wrapper .column-1,
+    footer .wrapper .column-2,
+    footer .wrapper .column-3,
+    footer .wrapper .column-4 {
+        border: none;
+    }
+      
+    footer .wrapper .column-1 {
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 20px;
+        padding-bottom: 0rem;
+    }
+    
+    footer .wrapper .logo {
+        margin-top: 2rem;
+        width: 250px;
+        text-align: center;
+    }
+    
+    footer .logo p {
+        margin-top: 10px;
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    footer .logo .social-icons i{
+        margin-right: 10px;
+    }
+      
+    footer .wrapper .column-2 {
+        grid-column: 1;
+        grid-row: 2;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-2 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-3 {
+        grid-column: 1;
+        grid-row: 3;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-3 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-4 {
+        grid-column: 1;
+        grid-row: 4;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    footer .wrapper .column-4 a p{
+        margin-bottom: 16px;
+    }
+    
+    footer .wrapper .column-5 {
+        grid-column: 1;
+        grid-row: 5;
+        padding-left: 0px;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    
+    footer .wrapper .column-5 a{
+        color: #000000;
+        text-decoration: underline;
+    }
+    
+    footer .wrapper .column-6 {
+        grid-column: 1;
+        grid-row: 6;
+        padding-left: 0em;
+        padding-top: 0rem;
+        text-align: center;
+    }
+    
+    footer .wrapper .column-6 a{
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 377px) and (max-width: 768px) {
+    footer .wrapper {
+        display: grid;
+        background-color: #d8e9e8;
+    }
+
+    footer h6 {
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 17px;
+    }
+    
+    footer .wrapper .column-1,
+    footer .wrapper .column-2,
+    footer .wrapper .column-3,
+    footer .wrapper .column-4 {
+        border: none;
+    }
+      
+    footer .wrapper .column-1 {
+        display: flex;
+        padding-left: 20px;
+        padding-bottom: 0rem;
+        justify-content: center;
+    }
+    
+    footer .wrapper .logo {
+        margin-top: 2rem;
+        width: 250px;
+        text-align: center;
+    }
+    
+    footer .logo p {
+        margin-top: 10px;
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    footer .logo .social-icons i{
+        margin-right: 10px;
+    }
+      
+    footer .wrapper .column-2 {
+        grid-column: 1;
+        grid-row: 2;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-2 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-3 {
+        grid-column: 1;
+        grid-row: 3;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-3 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-4 {
+        grid-column: 1;
+        grid-row: 4;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    footer .wrapper .column-4 a p{
+        margin-bottom: 16px;
+    }
+    
+    footer .wrapper .column-5 {
+        grid-column: 1;
+        grid-row: 5;
+        padding-left: 0px;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    
+    footer .wrapper .column-5 a{
+        color: #000000;
+        text-decoration: underline;
+    }
+    
+    footer .wrapper .column-6 {
+        grid-column: 1;
+        grid-row: 6;
+        padding-left: 0em;
+        padding-top: 0rem;
+        text-align: center;
+    }
+    
+    footer .wrapper .column-6 a{
+        margin-left: 30px;
+        font-size: 16px;
+    }   
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    footer .wrapper {
+        display: grid;
+        background-color: #d8e9e8;
+    }
+
+    footer h6 {
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 17px;
+    }
+    
+    footer .wrapper .column-1,
+    footer .wrapper .column-2,
+    footer .wrapper .column-3,
+    footer .wrapper .column-4 {
+        border: none;
+    }
+      
+    footer .wrapper .column-1 {
+        display: flex;
+        padding-left: 20px;
+        padding-bottom: 0rem;
+        justify-content: center;
+        grid-column: 1 / span 2;
+    }
+    
+    footer .wrapper .logo {
+        margin-top: 2rem;
+        width: 250px;
+        text-align: center;
+    }
+    
+    footer .logo p {
+        margin-top: 10px;
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    footer .logo .social-icons i{
+        margin-right: 10px;
+    }
+      
+    footer .wrapper .column-2 {
+        grid-column: 1;
+        grid-row: 2;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-2 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-3 {
+        grid-column: 2;
+        grid-row: 2;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-3 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-4 {
+        grid-column: 1;
+        grid-row: 3;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    footer .wrapper .column-4 a p{
+        margin-bottom: 16px;
+    }
+    
+    footer .wrapper .column-5 {
+        grid-column: 1;
+        grid-row: 4;
+        padding-left: 0px;
+        padding-top: 2rem;
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    
+    footer .wrapper .column-5 a{
+        color: #000000;
+        text-decoration: underline;
+    }
+    
+    footer .wrapper .column-6 {
+        grid-column: 1;
+        grid-row: 5;
+        padding-left: 0em;
+        padding-top: 0rem;
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    
+    footer .wrapper .column-6 a{
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1294px) {
+    footer .wrapper {
+        display: grid;
+        background-color: #d8e9e8;
+    }
+
+    footer h6 {
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 17px;
+    }
+    
+    footer .wrapper .column-1,
+    footer .wrapper .column-2,
+    footer .wrapper .column-3,
+    footer .wrapper .column-4 {
+        border: 1px solid #ccc;
+    }
+      
+    footer .wrapper .column-1 {
+        display: grid;
+        padding-left: 20px;
+        padding-bottom: 0rem;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    footer .wrapper .logo {
+        margin-top: 2rem;
+        width: 250px;
+    }
+    
+    footer .logo p {
+        margin-top: 10px;
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    footer .logo .social-icons i{
+        margin-right: 10px;
+    }
+      
+    footer .wrapper .column-2 {
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-2 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-3 {
+        grid-column: 3;
+        grid-row: 1;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    
+    footer .wrapper .column-3 a p{
+        margin-bottom: 10px;
+    }
+      
+    footer .wrapper .column-4 {
+        grid-column: 4;
+        grid-row: 1;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    footer .wrapper .column-4 a p{
+        margin-bottom: 16px;
+    }
+    
+    footer .wrapper .column-5 {
+        grid-column: 1;
+        grid-row: 2;
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+    
+    footer .wrapper .column-5 a{
+        color: #000000;
+        text-decoration: underline;
+    }
+    
+    footer .wrapper .column-6 {
+        grid-column: 4;
+        grid-row: 2;
+        padding-left: 2em;
+        padding-top: 12px;
+    }
+    
+    footer .wrapper .column-6 a{
+        margin-left: 10px;
+    }
+}
