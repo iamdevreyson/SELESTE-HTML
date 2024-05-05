@@ -252,6 +252,57 @@
 }
 
 /* Other Offers */
+.other-offers {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 3rem 0;
+}
+
+.other-offers .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.other-offers h1 {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-size: 45px;
+    margin-right: 200px;
+    color: #1f3332;
+    padding-bottom: 2rem;
+}
+
+.other-offers h3 {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1f3332;
+}
+
+.other-offers p {
+    font-size: 17px;
+    color: #626262;
+}
+
+.other-offers .column-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.other-offers .column-1 img{
+    width: 600px;
+    margin: 40px 0 0 80px;
+}
+
+.other-offers .column-2 .offers {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.other-offers .column-2 .offers .toys,
+.other-offers .column-2 .offers .products {
+    padding-bottom: 1rem;
+}
 
 /* Brand Section */
 .brand-section {
@@ -792,6 +843,291 @@ footer .wrapper .column-6 a{
 }
 
 /* Other Offers */
+@media (min-width: 320px) and (max-width: 480px) {
+    .other-offers {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+    
+    .other-offers .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .other-offers h1 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        margin-right: 0px;
+        color: #1f3332;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .other-offers h3 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 20px;
+        color: #1f3332;
+    }
+    
+    .other-offers p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .other-offers .column-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .other-offers .column-1 img{
+        width: 280px;
+        margin: 20px 0 0 0px;
+    }
+    
+    .other-offers .column-2 .offers {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .other-offers .column-2 img{
+        padding-bottom: 16px;
+    }
+    
+    .other-offers .column-2 .offers .toys,
+    .other-offers .column-2 .offers .products,
+    .other-offers .column-2 .offers .shipping {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 576px) {
+    .other-offers {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+    
+    .other-offers .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .other-offers h1 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        margin-right: 0px;
+        color: #1f3332;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .other-offers h3 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 20px;
+        color: #1f3332;
+    }
+    
+    .other-offers p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .other-offers .column-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .other-offers .column-1 img{
+        width: 390px;
+        margin: 10px 0 0 0px;
+    }
+    
+    .other-offers .column-2 .offers {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .other-offers .column-2 img{
+        padding-bottom: 16px;
+    }
+    
+    .other-offers .column-2 .offers .toys,
+    .other-offers .column-2 .offers .products,
+    .other-offers .column-2 .offers .shipping {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .other-offers {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+    
+    .other-offers .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .other-offers h1 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        margin-right: 0px;
+        color: #1f3332;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .other-offers h3 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 20px;
+        color: #1f3332;
+    }
+    
+    .other-offers p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .other-offers .column-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .other-offers .column-1 img{
+        width: 390px;
+        margin: 10px 0 0 0px;
+    }
+    
+    .other-offers .column-2 .offers {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .other-offers .column-2 img{
+        padding-bottom: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .other-offers {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+    
+    .other-offers .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .other-offers h1 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        margin-right: 0px;
+        color: #1f3332;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .other-offers h3 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 20px;
+        color: #1f3332;
+    }
+    
+    .other-offers p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .other-offers .column-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .other-offers .column-1 img{
+        width: 390px;
+        margin: 10px 0 0 0px;
+    }
+    
+    .other-offers .column-2 .offers {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .other-offers .column-2 img{
+        padding-bottom: 16px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1320px) {
+    .other-offers {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+    
+    .other-offers .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .other-offers h1 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 40px;
+        margin-right: 250px;
+        color: #1f3332;
+        padding-bottom: 2rem;
+    }
+    
+    .other-offers h3 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 20px;
+        color: #1f3332;
+    }
+    
+    .other-offers p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .other-offers .column-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .other-offers .column-1 img{
+        width: 500px;
+        margin: 10px 0 0 0px;
+    }
+    
+    .other-offers .column-2 .offers {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .other-offers .column-2 img{
+        padding-bottom: 16px;
+    }
+}
+
 
 /* Brand Section */
 @media (min-width: 320px) and (max-width: 369px) {
