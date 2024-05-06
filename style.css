@@ -909,6 +909,77 @@
     padding-bottom: 18px;
 }
 
+/* Testimonial Section */
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.testimonial-section .section-header {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.testimonial-section h2 {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-size: 50px;
+    color: #1f3332;
+}
+
+.testimonial-section h4 {
+    font-size: 18px;
+    color: #262626;
+}
+
+.testimonial-section p {
+    font-size: 17px;
+    color: #626262;
+}
+
+.testimonial-section .testimonial-content {
+    display: flex;
+    justify-content: center;
+    margin: 0 95px 0 95px;
+}
+
+.testimonial-content a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f96835;
+    padding: 3px 15px 3px 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.testimonials-item {
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-item .text-box {
+    padding: 30px 30px 0px 30px;
+}
+
+.testimonials-item .info {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 25px 10px 30px;
+}
+
+.testimonials-item img{
+    max-width: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.testimonials-item .name{
+    font-size: 18px;
+}
+
 /* Other Section */
 .other-section {
     display: flex;
@@ -2459,6 +2530,224 @@ footer .wrapper .column-6 a{
         letter-spacing: -1px;
         padding-bottom: 18px;
     }
+}
+
+/* Testimonial Section */
+@media (min-width: 320px) and (max-width: 345px) {
+    .testimonial-section {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 2rem 0;
+    }
+    
+    .testimonial-section .section-header {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .testimonial-section h2 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        color: #1f3332;
+    }
+    
+    .testimonial-section h4 {
+        font-size: 18px;
+        color: #262626;
+    }
+    
+    .testimonial-section p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .testimonial-section .testimonial-content {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .testimonial-content a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #f96835;
+        padding: 3px 2px 3px 2px;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+    
+    .testimonials-item {
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .testimonials-item .text-box {
+        padding: 30px 30px 0px 30px;
+    }
+    
+    .testimonials-item .info {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #ccc;
+        padding: 10px 25px 10px 30px;
+    }
+    
+    .testimonials-item img{
+        max-width: 45px;
+        border-radius: 50%;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+    
+    .testimonials-item .name{
+        font-size: 18px;
+    }    
+}
+
+@media (min-width: 345px) and (max-width: 575px) {
+    .testimonial-section {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 2rem 0;
+    }
+    
+    .testimonial-section .section-header {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .testimonial-section h2 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        color: #1f3332;
+    }
+    
+    .testimonial-section h4 {
+        font-size: 18px;
+        color: #262626;
+    }
+    
+    .testimonial-section p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .testimonial-section .testimonial-content {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .testimonial-content a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #f96835;
+        padding: 3px 3px 3px 3px;
+        border-radius: 30px;
+        margin-left: 25px;
+    }
+    
+    .testimonials-item {
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    }
+    
+    .testimonials-item .text-box {
+        padding: 30px 30px 0px 30px;
+    }
+    
+    .testimonials-item .info {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #ccc;
+        padding: 10px 25px 10px 30px;
+    }
+    
+    .testimonials-item img{
+        max-width: 45px;
+        border-radius: 50%;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+    
+    .testimonials-item .name{
+        font-size: 18px;
+    }    
+}
+
+@media (min-width: 575px) and (max-width: 992px) {
+    .testimonial-section {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 2rem 0;
+    }
+    
+    .testimonial-section .section-header {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .testimonial-section h2 {
+        font-family: "Mali", cursive;
+        font-weight: 600;
+        font-size: 29px;
+        color: #1f3332;
+    }
+    
+    .testimonial-section h4 {
+        font-size: 18px;
+        color: #262626;
+    }
+    
+    .testimonial-section p {
+        font-size: 17px;
+        color: #626262;
+    }
+    
+    .testimonial-section .testimonial-content {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .testimonial-content a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #f96835;
+        padding: 3px 2px 3px 2px;
+        border-radius: 30px;
+        margin-left: 30px;
+    }
+    
+    .testimonials-item {
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .testimonials-item .text-box {
+        padding: 30px 30px 0px 30px;
+    }
+    
+    .testimonials-item .info {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #ccc;
+        padding: 10px 25px 10px 30px;
+    }
+    
+    .testimonials-item img{
+        max-width: 45px;
+        border-radius: 50%;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+    
+    .testimonials-item .name{
+        font-size: 18px;
+    }    
 }
 
 /* Other Section */
