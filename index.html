@@ -449,6 +449,97 @@
 
     </section>
 
+    <section class="arrival-section">
+        <div class="column-1">
+            <div class="slider">
+                <img src="images/demo-kids-toy-product-slider-1.jpg" alt="">
+                <img src="images/demo-kids-toy-product-slider-img-2.jpg" alt="">
+                <img src="images/demo-kids-toy-product-slider-3_b6fc38c6-9b40-4a57-8c9b-bf82004ca16c.jpg" alt="">
+                
+                <div class="navigation">
+                    <button class="btn-1" onclick="goPrev()">
+                        <i class="bi bi-arrow-left"></i>
+                    </button>
+                    <button class="btn-2" onclick="goNext()">
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="column-2">
+            <h1>New arrival</h1>
+            <p>We work with the best and top brands</p>
+
+            <div class="slide">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card card-1">
+                                <div class="overlay">
+                                    <div class="arrival-heart">
+                                        <a href="#"><i class="bi bi-heart"></i></a>
+                                    </div>
+                                    <a href="#" class="arrival-cart"><i class="bi bi-cart"></i>&nbsp;ADD TO CART</a>
+                                    <a href="#" class="arrival-view"><i class="bi bi-eye"></i> &nbsp;QUICK VIEW</a>
+                                </div>
+                            </div>
+                            
+                            <div class="icons"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+
+                            <a href="#"><h5> Cute teddy bear toy </h5></a>
+                            <span><s>$45.00</s>&nbsp;&nbsp;$37.00</span>
+                        </div>
+    
+                        <div class="carousel-item">
+                            <div class="card card-2">
+                                <div class="overlay">
+                                    <div class="arrival-heart">
+                                        <a href="#"><i class="bi bi-heart"></i></a>
+                                    </div>
+                                    <a href="#" class="arrival-cart"><i class="bi bi-cart"></i>&nbsp;ADD TO CART</a>
+                                    <a href="#" class="arrival-view"><i class="bi bi-eye"></i> &nbsp;QUICK VIEW</a>
+                                </div>
+                            </div>
+
+                            <div class="icons"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+
+                            <a href="#"><h5> Teething rattle toy </h5></a>
+                            <span><s>$40.00</s>&nbsp;&nbsp;$31.00</span>
+                        </div>
+    
+                        <div class="carousel-item">
+                            <div class="card card-3">
+                                <div class="overlay">
+                                    <div class="arrival-heart">
+                                        <a href="#"><i class="bi bi-heart"></i></a>
+                                    </div>
+                                    <a href="#" class="arrival-cart"><i class="bi bi-cart"></i>&nbsp;ADD TO CART</a>
+                                    <a href="#" class="arrival-view"><i class="bi bi-eye"></i> &nbsp;QUICK VIEW</a>
+                                </div>
+                            </div>
+
+                            <div class="icons"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+
+                            <a href="#"><h5> Soft dinosaur toy </h5></a>
+                            <span><s>$34.00</s>&nbsp;&nbsp;$29.00</span>
+                        </div>
+    
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="age-section">
         <div class="container">
             <h1>Shop by age</h1>
@@ -911,6 +1002,75 @@
                 },
             }
         });
+
+        ///
+        // let currentIndex = 0;
+        // const images = document.querySelectorAll('.arrival-section .column-1 .slider img');
+
+        // function showImage(index) {
+        //     images.forEach((img, i) => {
+        //         if (i === index) {
+        //             img.style.opacity = 1;
+        //         } else {
+        //             img.style.opacity = 0;
+        //         }
+        //     });
+        // }
+
+        // function goNext() {
+        //     currentIndex = (currentIndex + 1) % images.length;
+        //     showImage(currentIndex);
+        // }
+
+        // function goPrev() {
+        //     currentIndex = (currentIndex - 1 + images.length) % images.length;
+        //     showImage(currentIndex);
+        // }
+
+        // showImage(currentIndex);
+
+        let currentIndex1 = 0; // for slider in column-1
+        let currentIndex2 = 0; // for slider in column-2
+
+        const images1 = document.querySelectorAll('.arrival-section .column-1 .slider img');
+        const images2 = document.querySelectorAll('.arrival-section .column-2 .carousel-inner .carousel-item');
+
+        function showImage1(index) {
+            images1.forEach((img, i) => {
+                if (i === index) {
+                    img.style.opacity = 1;
+                } else {
+                    img.style.opacity = 0;
+                }
+            });
+        }
+
+        function showImage2(index) {
+            images2.forEach((item, i) => {
+                if (i === index) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+
+        function goNext() {
+            currentIndex1 = (currentIndex1 + 1) % images1.length;
+            currentIndex2 = (currentIndex2 + 1) % images2.length;
+            showImage1(currentIndex1);
+            showImage2(currentIndex2);
+        }
+
+        function goPrev() {
+            currentIndex1 = (currentIndex1 - 1 + images1.length) % images1.length;
+            currentIndex2 = (currentIndex2 - 1 + images2.length) % images2.length;
+            showImage1(currentIndex1);
+            showImage2(currentIndex2);
+        }
+
+        showImage1(currentIndex1);
+        showImage2(currentIndex2);
     </script>
 </body>
 </html>
