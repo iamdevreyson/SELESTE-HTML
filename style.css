@@ -1173,6 +1173,87 @@
     color: #000000;
 }
 
+/* Model Section */
+.model-section {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+}
+
+.model-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.model-section .wrapper .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.9rem 3.8rem 3.9rem 3.8rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.model-section .wrapper .overlay:hover {
+    opacity: 1;
+}
+
+.model-section .overlay .instagram {
+    background-color: #ffffff;
+    padding: 16px 20px 16px 20px;
+    border-radius: 50%;
+}
+
+.model-section .overlay .instagram i {
+    color: #000000;
+    font-size: 18px;
+}
+
+.model-section .wrapper .card-1 {
+    background-image: url(images/337128824_1527258004435117_2377193400988885996_n.jpg);
+    background-size: cover;
+    background-position: contain;
+    border-radius: 5px;
+}
+
+.model-section .wrapper .card-2 {
+    background-image: url(images/336972354_865776911571313_221229361354698972_n.jpg);
+    background-size: cover;
+    background-position: contain;
+    border-radius: 5px;
+}
+
+.model-section .wrapper .card-3 {
+    background-image: url(images/337492197_739578017637857_612070385581622625_n.jpg);
+    background-size: cover;
+    background-position: contain;
+    border-radius: 5px;
+}
+
+.model-section .wrapper .card-4 {
+    background-image: url(images/337183548_1313234816204982_7891437715000251658_n.jpg);
+    background-size: cover;
+    background-position: contain;
+    border-radius: 5px;
+}
+
+.model-section .wrapper .card-5 {
+    background-image: url(images/337114020_613838466854394_223797190708250834_n.jpg);
+    background-size: cover;
+    background-position: contain;
+    border-radius: 5px;
+}
+
+.model-section .wrapper .card-6 {
+    background-image: url(images/337354505_634298845174567_2562734616707472466_n.jpg);
+    background-size: cover;
+    background-position: contain;
+    border-radius: 5px;
+}
+
 /* Other Option */
 .other-options {
     display: flex;
@@ -3455,6 +3536,231 @@ footer .wrapper .column-6 a{
     .other-section h1{
         font-size: 20px;
         margin: 0 40px 0 40px;
+    }
+}
+
+/* Model Section  */
+@media (min-width: 320px) and (max-width: 376px) {
+    .model-section {
+        padding: 5px 0 10px 0;
+    }
+    
+    .model-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .model-section .wrapper .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .model-section .wrapper .overlay:hover {
+        opacity: 1;
+    }
+    
+    .model-section .overlay .instagram {
+        background-color: #ffffff;
+        padding: 16px 20px 16px 20px;
+        border-radius: 50%;
+    }
+    
+    .model-section .overlay .instagram i {
+        color: #000000;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+    .model-section {
+        padding: 5px 0 10px 0;
+    }
+    
+    .model-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .model-section .wrapper .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.8rem 2.8rem 2.8rem 2.8rem;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .model-section .wrapper .overlay:hover {
+        opacity: 1;
+    }
+    
+    .model-section .overlay .instagram {
+        background-color: #ffffff;
+        padding: 16px 20px 16px 20px;
+        border-radius: 50%;
+    }
+    
+    .model-section .overlay .instagram i {
+        color: #000000;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 568px) {
+    .model-section {
+        padding: 5px 0 10px 0;
+    }
+    
+    .model-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .model-section .wrapper .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.8rem 2.8rem 2.8rem 2.8rem;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .model-section .wrapper .overlay:hover {
+        opacity: 1;
+    }
+    
+    .model-section .overlay .instagram {
+        background-color: #ffffff;
+        padding: 16px 20px 16px 20px;
+        border-radius: 50%;
+    }
+    
+    .model-section .overlay .instagram i {
+        color: #000000;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 768px) {
+    .model-section {
+        padding: 5px 0 10px 0;
+    }
+    
+    .model-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .model-section .wrapper .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3.8rem 3.8rem 3.8rem 3.8rem;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .model-section .wrapper .overlay:hover {
+        opacity: 1;
+    }
+    
+    .model-section .overlay .instagram {
+        background-color: #ffffff;
+        padding: 16px 20px 16px 20px;
+        border-radius: 50%;
+    }
+    
+    .model-section .overlay .instagram i {
+        color: #000000;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .model-section {
+        padding: 5px 0 10px 0;
+    }
+    
+    .model-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .model-section .wrapper .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 4rem 4rem 4rem;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .model-section .wrapper .overlay:hover {
+        opacity: 1;
+    }
+    
+    .model-section .overlay .instagram {
+        background-color: #ffffff;
+        padding: 16px 20px 16px 20px;
+        border-radius: 50%;
+    }
+    
+    .model-section .overlay .instagram i {
+        color: #000000;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .model-section .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+    }
+    
+    .model-section .wrapper .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .model-section .wrapper .overlay:hover {
+        opacity: 1;
+    }
+    
+    .model-section .overlay .instagram {
+        background-color: #ffffff;
+        padding: 16px 20px 16px 20px;
+        border-radius: 50%;
+    }
+    
+    .model-section .overlay .instagram i {
+        color: #000000;
+        font-size: 18px;
     }
 }
 
