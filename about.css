@@ -109,7 +109,7 @@
     display: flex;
     justify-content: center;
     background-image: url(images/demo-kids-toy-about-title-bg-01.jpg);
-    background-position: cover;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 3rem;
